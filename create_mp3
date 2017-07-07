@@ -1,0 +1,7 @@
+#This output have been made by using xxd -p <your_mp3>
+
+echo '
+
+# Your binary
+
+' | xxd -p -r > created.mp3
